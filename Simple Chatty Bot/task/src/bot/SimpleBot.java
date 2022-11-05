@@ -12,7 +12,6 @@ public class SimpleBot {
         count();
         test();
         end();
-
     }
 
     static void greet(String assistantName, String birthYear) {
