@@ -8,8 +8,10 @@ class Main {
         int h2 = scanner.nextInt();
         int h3 = scanner.nextInt();
         boolean flaga = false;
-        //liczby rosnąco lub malejąco i równe
-        if((h1 >= h2 && h2 >= h3) || (h1<=h2 && h2<=h3)) flaga = true;
+
+        if((h1 >= h2 && h2 >= h3) || (h1 <= h2 && h2 <= h3)) {
+            flaga = true;
+        }
         System.out.println(flaga);
     }
 }

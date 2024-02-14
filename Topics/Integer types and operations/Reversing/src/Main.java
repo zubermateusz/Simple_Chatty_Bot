@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 class Main {
@@ -6,10 +5,11 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         // put your code here
         int liczbaStart = scanner.nextInt();
-        if(liczbaStart%10 != 0) System.out.print(liczbaStart%10);
+        //int suma = (liczba / 10 / 10) + (liczba / 10 % 10) + (liczba % 10);
+        if (liczbaStart % 10 != 0) {
+            System.out.print(liczbaStart % 10);
+        }
         System.out.print(liczbaStart / 10 % 10);
         System.out.print(liczbaStart / 10 / 10);
-
-
     }
 }

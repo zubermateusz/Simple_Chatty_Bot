@@ -5,8 +5,10 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         // start coding here
         String word = scanner.nextLine().trim().toLowerCase();
-        if(word.startsWith("j")) System.out.println(true);
-        else System.out.println(false);
-
+        if (word.startsWith("j")) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
     }
 }
